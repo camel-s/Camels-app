@@ -1,14 +1,15 @@
 import { Injectable } from '@angular/core';
+import { Usuario } from '../models/usuario.model';
 
 @Injectable()
 
 export class UsuarioService {
 
-  constructor() { }
+  public usuario:Usuario
+
+  constructor() {}
 
   getUsuario(): Array<any>{
-    let array:Array<string>  = ['arthur','vini','felipe']
-    console.log(array)
-    return array 
+    return this.usuario
   }
 }
