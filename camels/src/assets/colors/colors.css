@@ -1,0 +1,18 @@
+/* Background color */
+.bg-black-o{
+    background-color: rgba(0,0,0,0.7);
+}
+.bg-white-o{
+    background-color: rgba(255,255,255,0.7);
+}
+.bg-green{
+    background-color: rgba(107,210,139,1);
+}
+
+/* Color */
+.c-black{
+    color: black;
+}
+.c-white{
+    color: white;
+}

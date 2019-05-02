@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* Evolve Sans EVO */
+@font-face {
+  font-family: "ES_EVO_bold";
+  src: url("Evolve_Sans/EVO/ES_EVO_bold.otf");
+}
+.f-ev-b{ font-family: "ES_EVO_bold"; }
+
+@font-face {
+  font-family: "ES_EVO_medium";
+  src: url("Evolve_Sans/EVO/ES_EVO_medium.otf");
+}
+.f-ev-m{ font-family: "ES_EVO_medium"; }
+
+@font-face {
+  font-family: "ES_EVO_regular";
+  src: url("Evolve_Sans/EVO/ES_EVO_regular.otf");
+}
+.f-ev-r{ font-family: "ES_EVO_regular"; }
+
+@font-face {
+  font-family: "ES_EVO_light";
+  src: url("Evolve_Sans/EVO/ES_EVO_light.otf");
+}
+.f-ev-l{ font-family: "ES_EVO_light"; }
+
+@font-face {
+  font-family: "ES_EVO_thin";
+  src: url("Evolve_Sans/EVO/ES_EVO_thin.otf");
+}
+.f-ev-t{ font-family: "ES_EVO_thin"; }
+
+
+/* Evolve Sans Normal */
+@font-face {
+  font-family: "ES_bold";
+  src: url("Evolve_Sans/Regular/ES_bold.otf");
+}
+.f-es-b{ font-family: "ES_bold"; }
+
+@font-face {
+  font-family: "ES_medium";
+  src: url("Evolve_Sans/Regular/ES_medium.otf");
+}
+.f-es-m{ font-family: "ES_medium"; }
+
+@font-face {
+  font-family: "ES_regular";
+  src: url("Evolve_Sans/Regular/ES_regular.otf");
+}
+.f-es-r{ font-family: "ES_regular"; }
+
+@font-face {
+  font-family: "ES_light";
+  src: url("Evolve_Sans/Regular/ES_light.otf");
+}
+.f-es-l{ font-family: "ES_light"; }
+
+@font-face {
+  font-family: "ES_thin";
+  src: url("Evolve_Sans/Regular/ES_thin.otf");
+}
+.f-es-t{ font-family: "ES_thin"; }
+
+/* Font Size */
+
+.fs-1{
+  font-size: 12px;
+}
+.fs-2{
+  font-size: 20px;
+}
+.fs-3{
+  font-size: 25px;
+}
+.fs-4{
+  font-size: 32px;
+}
+.fs-5{
+  font-size: 40px;
+}
+
+.fs-t1{
+  font-size: 80px;
+}
+.fs-t2{
+  font-size: 60px;
+}
+.fs-t3{
+  font-size: 50px;
+}
