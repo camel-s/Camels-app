@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideComponent implements OnInit {
 
+  public visibilidade:boolean
+
   constructor() { }
 
   ngOnInit() {

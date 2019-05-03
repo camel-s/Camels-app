@@ -1,3 +1,8 @@
-<div class='menu fixed-top'>
-
+<div class='fixed-top'>
+    <div *ngIf='usuario'>
+        <app-menu-main></app-menu-main>
+    </div>
+    <div *ngIf='!usuario'>
+        <app-menu-inicial></app-menu-inicial>
+    </div>
 </div>

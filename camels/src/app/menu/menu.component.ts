@@ -15,7 +15,7 @@ export class MenuComponent implements OnInit {
   constructor(private usuarioService: UsuarioService) { }
 
   ngOnInit() {
-    this.usuario = this.usuarioService.getUsuario()
+   // this.usuario = this.usuarioService.getUsuario()
   }
 
 }

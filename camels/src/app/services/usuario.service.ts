@@ -9,7 +9,7 @@ export class UsuarioService {
 
   constructor() {}
 
-  getUsuario(): Array<any>{
-    return this.usuario
-  }
+ // getUsuario(): Array<any>{
+   //return this.usuario
+  //}
 }

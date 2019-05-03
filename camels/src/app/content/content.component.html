@@ -1,3 +1,7 @@
-<div class='content'>
 
+<div [ngSwitch]='page'>
+    <app-content-perfil   *ngSwitchCase="1"></app-content-perfil>
+    <app-content-ofereca  *ngSwitchCase="2"></app-content-ofereca>
+    <app-content-contrate *ngSwitchCase="3"></app-content-contrate>
+    <app-content-inicial  *ngSwitchDefault></app-content-inicial>
 </div>
