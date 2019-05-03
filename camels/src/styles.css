@@ -8,6 +8,20 @@ a, a:hover{
     color: inherit;
 }
 
+/* Height */
 .vh100{
     height: 100vh;
+}
+
+/* Margin */
+.mt25{
+    margin-top: 20vh;
+}
+
+/* Links */
+.l-1{
+    transition: color, 0.6s;
+}
+.l-1:hover{
+    color: rgba(107,210,139,1);
 }
