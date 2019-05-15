@@ -1,3 +1,8 @@
-<div class='side col-12 vh100 position-fixed'>
-
+<div routerLinkActive='active' class='side row col-12 vh100 position-fixed p-0 m-0'>
+    <div class='col-6 vh100 bg-black-o p-3'>
+        <a routerLink='/' class='l-1 c-white fs-4'>X</a>
+    </div>
+    <div class='col-6 vh100 bg-white'>
+        <router-outlet></router-outlet>
+    </div>
 </div>
