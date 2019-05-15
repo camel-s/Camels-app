@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router'; 
+
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -17,6 +19,7 @@ import { SideServicoComponent } from './side/side-servico/side-servico.component
 import { SideLoginComponent } from './side/side-login/side-login.component';
 import { MenuInicialComponent } from './menu/menu-inicial/menu-inicial.component';
 import { MenuMainComponent } from './menu/menu-main/menu-main.component';
+import { ROUTES } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,8 @@ import { MenuMainComponent } from './menu/menu-main/menu-main.component';
     MenuMainComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forChild(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
